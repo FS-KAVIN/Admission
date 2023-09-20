@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+</head>
+<body>
+    
+    <form style="text-align: center;"> 
+        <img src="download (1).jpg"><br/>
+        <video width="320" height="240" controls autoplay muted>
+            <source src="Ramco Institute of Technology Infrastructure and Facilities.mp4"  type="video/mp4">            
+        </video>
+        <h2>COLLEGE ADMISSION FORM</h2>
+        <p>
+            
+            <b>Your Name :</b> 
+            <input type="text" placeholder="First Name" required name="Name" id="First Name">
+            <input type="text" placeholder="Middle Name" name="Name">        
+            <input type="text" placeholder="Last Name" required name="Name">   
+            
+        </p>
+        <p>
+            <b>DOB :</b>
+            <input type="date">
+        </p>
+        <p>
+            <b>Gender :</b>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender"/>
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender"/>
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="gender"/>             
+        </p>
+        <p>
+            <b>Email :</b>
+            <input type="email" placeholder="Enter Your Email Id" required>
+        </p>
+        <p>
+            <b>Mobile Number :</b>
+            <input type="number" placeholder="Enter Your Mobile Number" required>
+        </p>
+        <label for="courses"><b>Course :</b></label>   
+        <select id="courses">  
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+        </select>  
+        <p>
+            <label for="Address"><b>Address :</b></label><br/><br/>
+            <textarea id="Address" rows="4" cols="30"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
